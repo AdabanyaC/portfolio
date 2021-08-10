@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import About from "./components/About";
 import Home from "./components/Home";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 
           {/* Not Found */}
           {/* <Route path="/not-found" component={NotFound} /> */}
+          <Route path="/about" component={About} />
           <Route path="/" exact component={Home} />
           <Redirect to="/not-found" />
         </Switch>

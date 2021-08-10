@@ -1,44 +1,28 @@
-import React, { Component } from "react";
+import React from "react";
+import Navbar from "./layout/Navbar";
 // import { NavLink } from "react-router-dom";
 
-class Home extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <input type="checkbox" id="nav-toggle" />
-        <div className="sidebar">
-          <div className="sidebar-brand">
-            <h2>
-              <span className="las la-clinic-medical"></span> <span>Hospital</span>
-            </h2>
+const Home = () => {
+  return (
+    <React.Fragment>
+      <div className="container-fluid header__container">
+        <div className="row">
+          <Navbar />
+          <div className="content__wrapper p-5">
+            <h3 className="display-1 text-white header__title">
+              Hey! <br />
+              I'm Clinton Adabanya.
+            </h3>
+            <p className="text-white header__body">Front End Developer, Writer and Podcaster.</p>
+            <button className="btn btn-secondary">My Resume</button>
           </div>
         </div>
-
-        <div className="main-content">
-          <header>
-            <h2>
-              <label for="nav-toggle">
-                <span className="las la-bars"></span>
-              </label>{" "}
-              Tablero
-            </h2>
-
-            <div className="search-wrapper">
-              <span className="las la-search"></span>
-              <input type="search" placeholder="Buscar aquí" />
-            </div>
-            <div className="user-wrapper">
-              <img src="img/Avatar.png" width="40px" height="40px" alt="" />
-              <div>
-                <h4>Administrador</h4>
-                <small>Super Admin</small>
-              </div>
-            </div>
-          </header>
-        </div>
-      </React.Fragment>
-    );
-  }
-}
+      </div>
+      <div className="container-fluid header__container__alt">
+        <div className="row"></div>
+      </div>
+    </React.Fragment>
+  );
+};
 
 export default Home;
