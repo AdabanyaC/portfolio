@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Navbar from "./layout/Navbar";
+import Navbar from "../layout/Navbar";
 
 const About = () => {
   return (
     <React.Fragment>
-      <div className="container-fluid about__container">
+      <div className="container-fluid page-container full-screen">
         <div className="row">
           <Navbar />
           <div className="col-md-8 content__wrapper p-5">

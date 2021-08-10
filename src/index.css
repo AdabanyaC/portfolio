@@ -8,6 +8,23 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.page-container {
+  background-color: var(--main-color);
+}
+
+.half-screen {
+  height: 50vh;
+}
+
+.three-quarter-screen {
+  height: 75vh;
+}
+
+.full-screen {
+  height: 100vh;
+}
+
+/* Home Page */
 .header__container {
   background: linear-gradient(rgba(24, 29, 36, 0.571), rgba(202, 157, 117, 0.441)),
     url("https://res.cloudinary.com/dbdgevqyn/image/upload/v1628512014/portfolio/hero.jpg");
@@ -42,12 +59,6 @@ body {
 
 .text-brown {
   color: var(--text-brown);
-}
-
-/* About Page */
-.about__container {
-  height: 100vh;
-  background-color: var(--main-color);
 }
 
 .image__container {

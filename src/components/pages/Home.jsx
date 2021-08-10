@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./layout/Navbar";
+import Navbar from "../layout/Navbar";
 // import { NavLink } from "react-router-dom";
 
 const Home = () => {
@@ -10,8 +10,8 @@ const Home = () => {
           <Navbar />
           <div className="content__wrapper p-5">
             <h3 className="display-1 text-white header__title">
-              Hey! <br />
-              I'm Clinton Adabanya.
+              Hello, I'm
+              <br /> Clinton Adabanya.
             </h3>
             <p className="text-white header__body">Front End Developer, Writer and Podcaster.</p>
             <button className="btn btn-secondary">My Resume</button>
