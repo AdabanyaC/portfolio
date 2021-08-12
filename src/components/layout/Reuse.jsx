@@ -10,3 +10,13 @@ export const LinkItem = (props) => {
     </li>
   );
 };
+
+export const Pagelist = (props) => {
+  return (
+    <span className="text-size text-white">
+      <span className="text-brown">{props.listItem}: </span>
+      {props.content}
+      <br />
+    </span>
+  );
+};

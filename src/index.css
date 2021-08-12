@@ -24,6 +24,18 @@ body {
   height: 100vh;
 }
 
+.content__wrapper {
+  margin-top: 16.5vh;
+}
+
+.text-size {
+  font-size: 19px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 /* Home Page */
 .header__container {
   background: linear-gradient(rgba(24, 29, 36, 0.571), rgba(202, 157, 117, 0.441)),
@@ -40,10 +52,6 @@ body {
   height: 30vh;
 }
 
-.content__wrapper {
-  margin-top: 20vh;
-}
-
 .content__wrapper a {
   text-decoration: none;
   color: #ca9d75;
@@ -53,21 +61,24 @@ body {
   text-transform: capitalize;
 }
 
-.text-size {
-  font-size: 20px;
-}
-
 .text-brown {
   color: var(--text-brown);
 }
 
 .image__container {
   border-radius: 30% 70% 69% 31% / 28% 30% 70% 72%;
-  /* background-image: linear-gradient(to right top, #ca9d75, #ac746d, #7e5464, #4b3a50, #1d2231); */
-  background: linear-gradient(rgba(24, 29, 36, 0.571), rgba(202, 157, 117, 0.441)),
+  background: linear-gradient(rgba(24, 29, 36, 0.263), rgba(202, 157, 117, 0.441)),
     url("https://res.cloudinary.com/dbdgevqyn/image/upload/v1628578821/portfolio/Budom.jpg");
   /* url("./assets/images/hero/hero.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
+}
+
+/* Skills Page */
+
+/* Projects Page */
+.carousel__container {
+  height: 20rem;
+  background-color: var(--text-brown);
 }
