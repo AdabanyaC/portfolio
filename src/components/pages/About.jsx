@@ -9,7 +9,7 @@ const About = () => {
         <div className="row">
           <Navbar />
           <div className="col-md-8 content__wrapper p-5">
-            <h3 className="display-1 text-brown">About Me.</h3>
+            <h1 className="display-1 text-brown">About Me.</h1>
             <p className="text-size text-white">
               I'm a Front-end Web Developer with over 2 years experience working with modern tools for Front-end web
               development. I love to talk and I love to write. These birthed my{" "}

@@ -20,3 +20,12 @@ export const Pagelist = (props) => {
     </span>
   );
 };
+
+export const InputField = (props) => {
+  return (
+    <div className="styled-input wide">
+      <input type={props.type} required />
+      <label>{props.placeholder}</label>
+    </div>
+  );
+};

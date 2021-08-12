@@ -1,6 +1,5 @@
 import React from "react";
-import SimpleSlider from "../layout/Carousel";
-import AsNavFor from "../layout/Carousel";
+import Carousel from "../layout/Carousel";
 import Navbar from "../layout/Navbar";
 import { Pagelist } from "../layout/Reuse";
 
@@ -10,12 +9,14 @@ export default function Projects() {
       <div className="container-fluid page-container full-screen">
         <div className="row">
           <Navbar />
-          <div className="col-md-6 content__wrapper p-5">
+          <div className="col-md-4 content__wrapper p-5">
             <h1 className="display-1 text-brown">My Projects.</h1>
+            <Pagelist listItem="Project Name" />
             <Pagelist listItem="Technologies Used" />
+            <Pagelist listItem="Live Demo URL" />
           </div>
-          <div className="col-md-4 text-center ms-5">
-            <AsNavFor />
+          <div className="col-md-6 text-center ms-5">
+            <Carousel />
           </div>
         </div>
       </div>
