@@ -10,7 +10,7 @@ const Navbar = (props) => {
           <NavLink className="navbar-brand" to="/">
             Clinton Adabanya
           </NavLink>
-          {/* <button
+          <button
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -20,14 +20,14 @@ const Navbar = (props) => {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
-          </button> */}
+          </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto p-4 mb-2 mt-4 mb-lg-0">
               <LinkItem linkItem="Home" url="/" />
               <LinkItem linkItem="About" url="/about" />
               <LinkItem linkItem="Skills" url="/skills" />
-              <LinkItem linkItem="Book" url="/wise-unto-salvation" />
-              <LinkItem linkItem="Podcast" url="/the360believer" />
+              {/* <LinkItem linkItem="Book" url="/wise-unto-salvation" />
+              <LinkItem linkItem="Podcast" url="/the360believer" /> */}
               <LinkItem linkItem="Projects" url="/projects" />
               <LinkItem linkItem="Contact" url="/contact" />
             </ul>

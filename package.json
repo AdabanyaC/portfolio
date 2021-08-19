@@ -12,6 +12,7 @@
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1",
+    "typeit-react": "^2.0.0-rc.5",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

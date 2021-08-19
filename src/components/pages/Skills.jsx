@@ -1,4 +1,5 @@
 import React from "react";
+import TypeIt from "typeit-react";
 import Navbar from "../layout/Navbar";
 import { Pagelist } from "../layout/Reuse";
 
@@ -9,7 +10,9 @@ const Skills = () => {
         <div className="row">
           <Navbar />
           <div className="col-md-8 content__wrapper p-5">
-            <h1 className="display-1 text-brown">My Skills.</h1>
+            <TypeIt>
+              <h6 className="display-3 text-brown">My Skills.</h6>
+            </TypeIt>
             <Pagelist
               listItem="Front End Tools"
               content="HTML5, CSS3, SASS, Bootstrap, TailwindCSS,

@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import TypeIt from "typeit-react";
 import Navbar from "../layout/Navbar";
 
 const About = () => {
@@ -9,11 +9,13 @@ const About = () => {
         <div className="row">
           <Navbar />
           <div className="col-md-8 content__wrapper p-5">
-            <h1 className="display-1 text-brown">About Me.</h1>
+            <TypeIt>
+              <h6 className="display-3 text-brown">About Me.</h6>
+            </TypeIt>
             <p className="text-size text-white">
-              I'm a Front-end Web Developer with over 2 years experience working with modern tools for Front-end web
-              development. I love to talk and I love to write. These birthed my{" "}
-              <NavLink to="/the360believer">podcast</NavLink> and my <NavLink to="wise-unto-salvation">book</NavLink>.
+              I am a Front-end web developer with few years of experience under my belt. I've worked with firms in the
+              Hospitality, Health and Real Estate industry respectively to deploy software solutions tailored for their
+              business needs. We can work together to bring your dream to life.
             </p>
           </div>
           <div className="col-md-4 image__container"></div>
