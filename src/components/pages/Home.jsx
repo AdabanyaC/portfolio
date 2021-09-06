@@ -10,10 +10,10 @@ const Home = () => {
           <Navbar />
           <div className="content__wrapper p-5">
             <TypeIt>
-              <h6 className="display-3 text-white">
+              <span className="display-3 font-sans text-white">
                 Hello, I'm
                 <br /> Clinton Adabanya.
-              </h6>
+              </span>
             </TypeIt>
             <a
               href="https://res.cloudinary.com/dbdgevqyn/image/upload/v1629392148/portfolio/Clinton_Adabanya_-_Frontend_Engineer.pdf"

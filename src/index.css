@@ -21,6 +21,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.font-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
 .page-container {
   background-color: var(--main-color);
 }
