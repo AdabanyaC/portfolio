@@ -15,7 +15,7 @@ const Skills = () => {
             </TypeIt>
             <Pagelist
               listItem="Front End Tools"
-              content="HTML5, CSS3, SASS, Bootstrap, TailwindCSS,
+              content="HTML5, CSS3, Bootstrap, TailwindCSS,
               JavaScript, ReactJS."
             />
             <Pagelist listItem="Collaboration" content="Github, Github Actions." />
