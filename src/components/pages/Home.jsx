@@ -26,19 +26,19 @@ const Home = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="bi bi-file-person-fill bi-icon"></i>
+                  <i className="bi bi-file-person-fill bi-icon"></i>
                 </a>
                 <a href="https://github.com/adabanyac" target="_blank" rel="noreferrer">
-                  <i class="bi bi-github bi-icon"></i>
+                  <i className="bi bi-github bi-icon"></i>
                 </a>
                 <a href="https://linkedin.com/in/clinton-adabanya" target="_blank" rel="noreferrer">
-                  <i class="bi bi-linkedin bi-icon"></i>
+                  <i className="bi bi-linkedin bi-icon"></i>
                 </a>
                 <a href="https://instagram.com/clintonadabanya" target="_blank" rel="noreferrer">
-                  <i class="bi bi-instagram bi-icon"></i>
+                  <i className="bi bi-instagram bi-icon"></i>
                 </a>
                 <a href="https://twitter.com/adabanya1" target="_blank" rel="noreferrer">
-                  <i class="bi bi-twitter bi-icon"></i>
+                  <i className="bi bi-twitter bi-icon"></i>
                 </a>
               </div>
             </a>

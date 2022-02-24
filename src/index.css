@@ -95,35 +95,20 @@ body {
 /* Skills Page */
 
 /* Projects Page */
-.carousel__container {
-  width: 100%;
-  height: 60vh;
-  background-color: var(--text-brown);
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
-.slide-1 {
-  background: url("https://res.cloudinary.com/dbdgevqyn/image/upload/v1628781539/portfolio/projects/Screenshot_81.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.projects-container-child {
+  width: 100%;
 }
-.slide-2 {
-  background: url("https://res.cloudinary.com/dbdgevqyn/image/upload/v1628781539/portfolio/projects/Screenshot_88.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.slide-3 {
-  background: url("https://res.cloudinary.com/dbdgevqyn/image/upload/v1628781539/portfolio/projects/Screenshot_83.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.slide-4 {
-  background: url("https://res.cloudinary.com/dbdgevqyn/image/upload/v1628781539/portfolio/projects/Screenshot_87.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+
+.projectImg {
+  max-width: 100%;
+  height: auto;
+  border: 4px solid var(--text-brown);
 }
 
 /* Contact Page */
@@ -239,6 +224,10 @@ textarea {
     float: none;
     text-align: center;
   }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 input[type="checkbox"] + label {
@@ -256,8 +245,7 @@ input[type="checkbox"]:checked + label {
   color: #ca9d75;
 }
 /* RESPONSIVENESS */
-@media only screen and (max-width: 425px) {
-  /*Small smartphones [325px -> 425px]*/
+@media only screen and (max-width: 485px) {
   .carousel__container {
     margin-top: -150px;
     text-align: center;
