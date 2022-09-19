@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectListCard from "./ProjectListCard";
 import Project1 from "./../../assets/1.png";
 import Project2 from "./../../assets/2.png";
 import Project3 from "./../../assets/3.png";
@@ -15,133 +16,61 @@ const ProjectList = () => {
   return (
     <div style={{ padding: "4rem" }}>
       <div className="projects-container">
-        <div className="projects-container-child">
-          <a target={"_blank"} rel="noreferrer" href="https://niministries.org">
-            <img
-              src={Project11}
-              alt="A web application built for Nelson Iheagwam Ministries."
-              className="projectImg"
-            />
-          </a>
-        </div>
-        <div className="projects-container-child">
-          <a
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://the360believer.vercel.app/"
-          >
-            <img
-              src={Project12}
-              alt="My personal podcast, blog and store website."
-              className="projectImg"
-            />
-          </a>
-        </div>
-        <div className="projects-container-child">
-          <a
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://earthquake-data.vercel.app/"
-          >
-            <img
-              src={Project10}
-              alt="A landing page that tells you the location of earthquakes in the last 24 hours from an API by the USGS"
-              className="projectImg"
-            />
-          </a>
-        </div>
-        <div className="projects-container-child">
-          <a
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://travel-website-opal.vercel.app/"
-          >
-            <img
-              src={Project2}
-              alt="Travel Website built as a capstone project for my academy"
-              className="projectImg"
-            />
-          </a>
-        </div>
-        <div className="projects-container-child">
-          <a
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://datawarehouse-chi.vercel.app/"
-          >
-            <img
-              src={Project1}
-              alt="Datawarehouse Project built as a capstone project for my academy."
-              className="projectImg"
-            />
-          </a>
-        </div>
-        <div className="projects-container-child">
-          <a
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://plotter-wait-list.vercel.app/"
-          >
-            <img
-              src={Project3}
-              alt="Plotter | Be your own accountant"
-              className="projectImg"
-            />
-          </a>
-        </div>
-        <div className="projects-container-child">
-          <a target={"_blank"} rel="noreferrer" href="https://gravelhomes.ng/">
-            <img
-              src={Project4}
-              alt="Gravel Homes Limited"
-              className="projectImg"
-            />
-          </a>
-        </div>
-        <div className="projects-container-child">
-          <a
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://www.getstarted.com.ng/"
-          >
-            <img
-              src={Project5}
-              alt="Getstarted Academy"
-              className="projectImg"
-            />
-          </a>
-        </div>
-        <div className="projects-container-child">
-          <a
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://cuevangelismteam.herokuapp.com/"
-          >
-            <img
-              src={Project6}
-              alt="Covenant University Evangelism Team"
-              className="projectImg"
-            />
-          </a>
-        </div>
-        <div className="projects-container-child">
-          <a
-            target={"_blank"}
-            rel="noreferrer"
-            href="http://healarheath.herokuapp.com/"
-          >
-            <img src={Project7} alt="Healar Health" className="projectImg" />
-          </a>
-        </div>
-        <div className="projects-container-child">
-          <a
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://pig-game-gamma.vercel.app/"
-          >
-            <img src={Project8} alt="Pig Game" className="projectImg" />
-          </a>
-        </div>
+        <ProjectListCard
+          url={"https://niministries.org"}
+          imgSrc={Project11}
+          altText="A web application built for Nelson Iheagwam Ministries."
+        />
+        <ProjectListCard
+          url={"https://the360believer.vercel.app/"}
+          imgSrc={Project12}
+          altText="My personal podcast, blog and store website."
+        />
+        <ProjectListCard
+          url={"https://earthquake-data.vercel.app/"}
+          imgSrc={Project10}
+          altText="A landing page that tells you the location of earthquakes in the last 24 hours from an API by the USGS"
+        />
+        <ProjectListCard
+          url={"https://travel-website-opal.vercel.app/"}
+          imgSrc={Project2}
+          altText="Travel Website built as a capstone project for my academy"
+        />
+        <ProjectListCard
+          url={"https://datawarehouse-chi.vercel.app/"}
+          imgSrc={Project1}
+          altText="Datawarehouse Project built as a capstone project for my academy."
+        />
+        <ProjectListCard
+          url={"https://plotter-wait-list.vercel.app/"}
+          imgSrc={Project3}
+          altText="Plotter | Be your own accountant"
+        />
+        <ProjectListCard
+          url={"https://gravelhomes.ng/"}
+          imgSrc={Project4}
+          altText="Gravel Homes Limited"
+        />
+        <ProjectListCard
+          url={"https://www.getstarted.com.ng/"}
+          imgSrc={Project5}
+          altText="Getstarted in Tech - Frontend, Backend and Product Design."
+        />
+        <ProjectListCard
+          url={"https://cuevangelismteam.herokuapp.com/"}
+          imgSrc={Project6}
+          altText="Covenant University Evangelism Team"
+        />
+        <ProjectListCard
+          url={"http://healarheath.herokuapp.com/"}
+          imgSrc={Project7}
+          altText="Healar Health | My final year project landing page."
+        />
+        <ProjectListCard
+          url={"https://pig-game-gamma.vercel.app/"}
+          imgSrc={Project8}
+          altText="Pig Game | An exercise by Jonas Schmedtmann in his JS course"
+        />
       </div>
     </div>
   );
