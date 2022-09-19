@@ -14,14 +14,23 @@ const Skills = () => {
               <h6 className="display-3 text-brown">My Skills.</h6>
             </TypeIt>
             <Pagelist
-              listItem="Front End Tools"
+              listItem="💻 Front End Tools"
               content="HTML5, CSS3, Bootstrap, TailwindCSS,
               JavaScript, ReactJS."
             />
-            <Pagelist listItem="Collaboration" content="Github, Github Actions." />
-            <Pagelist listItem="Deployment" content="Heroku, Vercel, Netlify, cPanel Hosting, AWS." />
-            <Pagelist listItem="Documentation" content="Docusaurus." />
-            <Pagelist listItem="Familiar" content="NodeJS, PHP, MongoDB, MySQL, Github, Heroku, Figma." />
+            <Pagelist
+              listItem="👨‍👨‍👦 Collaboration"
+              content="Github, Github Actions."
+            />
+            <Pagelist
+              listItem="📡 Deployment"
+              content="Heroku, Vercel, Netlify, cPanel Hosting, AWS."
+            />
+            <Pagelist listItem="📑 Documentation" content="Docusaurus." />
+            <Pagelist
+              listItem="🤔 Familiar"
+              content="NodeJS, PHP, MongoDB, MySQL, Github, Heroku, Figma."
+            />
           </div>
 
           <div className="col-md-4">

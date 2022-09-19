@@ -8,19 +8,22 @@ const Home = () => {
       <div className="container-fluid header__container">
         <div className="row">
           <Navbar />
-          <div className="content__wrapper p-5">
+          <div className="content__wrapper">
             <TypeIt>
               <span className="display-3 font-sans text-white">
                 Hello, I'm
                 <br /> Clinton Adabanya.
               </span>
             </TypeIt>
-            <a
+            {/* <a
               href="https://res.cloudinary.com/dbdgevqyn/image/upload/v1629392148/portfolio/Clinton_Adabanya_-_Frontend_Engineer.pdf"
               target="_blank"
               rel="noreferrer"
             >
-              <div className="icons__wrapper">
+              
+            </a> */}
+            <div className="icons__wrapper">
+              <div className="icons__wrapper__children">
                 <a
                   href="https://res.cloudinary.com/dbdgevqyn/image/upload/v1629392148/portfolio/Clinton_Adabanya_-_Frontend_Engineer.pdf"
                   target="_blank"
@@ -28,20 +31,45 @@ const Home = () => {
                 >
                   <i className="bi bi-file-person-fill bi-icon"></i>
                 </a>
-                <a href="https://github.com/adabanyac" target="_blank" rel="noreferrer">
+              </div>
+              <div className="icons__wrapper__children">
+                <a
+                  href="https://github.com/adabanyac"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="bi bi-github bi-icon"></i>
                 </a>
-                <a href="https://linkedin.com/in/clinton-adabanya" target="_blank" rel="noreferrer">
+              </div>
+              <div className="icons__wrapper__children">
+                {" "}
+                <a
+                  href="https://linkedin.com/in/clinton-adabanya"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="bi bi-linkedin bi-icon"></i>
                 </a>
-                <a href="https://instagram.com/clintonadabanya" target="_blank" rel="noreferrer">
+              </div>
+              <div className="icons__wrapper__children">
+                <a
+                  href="https://instagram.com/clintonadabanya"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="bi bi-instagram bi-icon"></i>
                 </a>
-                <a href="https://twitter.com/adabanya1" target="_blank" rel="noreferrer">
+              </div>
+              <div className="icons__wrapper__children">
+                <a
+                  href="https://twitter.com/adabanya1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="bi bi-twitter bi-icon"></i>
                 </a>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>

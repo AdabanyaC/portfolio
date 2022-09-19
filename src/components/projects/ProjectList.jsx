@@ -7,57 +7,138 @@ import Project5 from "./../../assets/5.png";
 import Project6 from "./../../assets/6.png";
 import Project7 from "./../../assets/7.png";
 import Project8 from "./../../assets/8.png";
-import Project9 from "./../../assets/9.png";
+import Project10 from "./../../assets/10.png";
+import Project11 from "./../../assets/11.png";
+import Project12 from "./../../assets/12.png";
 
 const ProjectList = () => {
   return (
     <div style={{ padding: "4rem" }}>
       <div className="projects-container">
         <div className="projects-container-child">
-          <a href="https://travel-website-opal.vercel.app/">
+          <a target={"_blank"} rel="noreferrer" href="https://niministries.org">
             <img
-              src={Project1}
+              src={Project11}
+              alt="A web application built for Nelson Iheagwam Ministries."
+              className="projectImg"
+            />
+          </a>
+        </div>
+        <div className="projects-container-child">
+          <a
+            target={"_blank"}
+            rel="noreferrer"
+            href="https://the360believer.vercel.app/"
+          >
+            <img
+              src={Project12}
+              alt="My personal podcast, blog and store website."
+              className="projectImg"
+            />
+          </a>
+        </div>
+        <div className="projects-container-child">
+          <a
+            target={"_blank"}
+            rel="noreferrer"
+            href="https://earthquake-data.vercel.app/"
+          >
+            <img
+              src={Project10}
+              alt="A landing page that tells you the location of earthquakes in the last 24 hours from an API by the USGS"
+              className="projectImg"
+            />
+          </a>
+        </div>
+        <div className="projects-container-child">
+          <a
+            target={"_blank"}
+            rel="noreferrer"
+            href="https://travel-website-opal.vercel.app/"
+          >
+            <img
+              src={Project2}
               alt="Travel Website built as a capstone project for my academy"
               className="projectImg"
             />
           </a>
         </div>
         <div className="projects-container-child">
-          <a href="https://datawarehouse-chi.vercel.app/">
+          <a
+            target={"_blank"}
+            rel="noreferrer"
+            href="https://datawarehouse-chi.vercel.app/"
+          >
             <img
-              src={Project2}
+              src={Project1}
               alt="Datawarehouse Project built as a capstone project for my academy."
               className="projectImg"
             />
           </a>
         </div>
         <div className="projects-container-child">
-          <a href="https://www.plotter.ng/">
-            <img src={Project3} alt="Plotter | Be your own accountant" className="projectImg" />
+          <a
+            target={"_blank"}
+            rel="noreferrer"
+            href="https://plotter-wait-list.vercel.app/"
+          >
+            <img
+              src={Project3}
+              alt="Plotter | Be your own accountant"
+              className="projectImg"
+            />
           </a>
         </div>
         <div className="projects-container-child">
-          <a href="https://gravelhomes.ng/">
-            <img src={Project4} alt="Gravel Homes Limited" className="projectImg" />
+          <a target={"_blank"} rel="noreferrer" href="https://gravelhomes.ng/">
+            <img
+              src={Project4}
+              alt="Gravel Homes Limited"
+              className="projectImg"
+            />
           </a>
         </div>
         <div className="projects-container-child">
-          <a href="https://www.getstarted.com.ng/">
-            <img src={Project5} alt="Getstarted Academy" className="projectImg" />
+          <a
+            target={"_blank"}
+            rel="noreferrer"
+            href="https://www.getstarted.com.ng/"
+          >
+            <img
+              src={Project5}
+              alt="Getstarted Academy"
+              className="projectImg"
+            />
           </a>
         </div>
         <div className="projects-container-child">
-          <a href="https://cuevangelismteam.herokuapp.com/">
-            <img src={Project6} alt="Covenant University Evangelism Team" className="projectImg" />
+          <a
+            target={"_blank"}
+            rel="noreferrer"
+            href="https://cuevangelismteam.herokuapp.com/"
+          >
+            <img
+              src={Project6}
+              alt="Covenant University Evangelism Team"
+              className="projectImg"
+            />
           </a>
         </div>
         <div className="projects-container-child">
-          <a href="http://healarheath.herokuapp.com/">
+          <a
+            target={"_blank"}
+            rel="noreferrer"
+            href="http://healarheath.herokuapp.com/"
+          >
             <img src={Project7} alt="Healar Health" className="projectImg" />
           </a>
         </div>
         <div className="projects-container-child">
-          <a href="https://pig-game-gamma.vercel.app/">
+          <a
+            target={"_blank"}
+            rel="noreferrer"
+            href="https://pig-game-gamma.vercel.app/"
+          >
             <img src={Project8} alt="Pig Game" className="projectImg" />
           </a>
         </div>
