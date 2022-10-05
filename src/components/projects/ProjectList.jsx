@@ -11,6 +11,7 @@ import Project8 from "./../../assets/8.png";
 import Project10 from "./../../assets/10.png";
 import Project11 from "./../../assets/11.png";
 import Project12 from "./../../assets/12.png";
+import Project13 from "./../../assets/13.png";
 
 const ProjectList = () => {
   return (
@@ -25,6 +26,11 @@ const ProjectList = () => {
           url={"https://the360believer.vercel.app/"}
           imgSrc={Project12}
           altText="My personal podcast, blog and store website."
+        />
+        <ProjectListCard
+          url={"https://starwars-app-clinton.vercel.app/"}
+          imgSrc={Project13}
+          altText="A landing page that demonstrates different functionalities on the Starwars API"
         />
         <ProjectListCard
           url={"https://earthquake-data.vercel.app/"}
