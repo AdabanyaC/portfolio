@@ -12,11 +12,17 @@ import Project10 from "./../../assets/10.png";
 import Project11 from "./../../assets/11.png";
 import Project12 from "./../../assets/12.png";
 import Project13 from "./../../assets/13.png";
+import Project14 from "./../../assets/14.png";
 
 const ProjectList = () => {
   return (
     <div style={{ padding: "4rem" }}>
       <div className="projects-container">
+        <ProjectListCard
+          url={"https://lyriks-app.vercel.app"}
+          imgSrc={Project14}
+          altText="A spotify clone built with React, TailwindCSS and Redux."
+        />
         <ProjectListCard
           url={"https://niministries.org"}
           imgSrc={Project11}
