@@ -13,11 +13,23 @@ import Project11 from "./../../assets/11.png";
 import Project12 from "./../../assets/12.png";
 import Project13 from "./../../assets/13.png";
 import Project14 from "./../../assets/14.png";
+import Project15 from "./../../assets/15.png";
+import Project16 from "./../../assets/16.png";
 
 const ProjectList = () => {
   return (
     <div style={{ padding: "4rem" }}>
       <div className="projects-container">
+        <ProjectListCard
+          url={"https://prophone.io"}
+          imgSrc={Project15}
+          altText="A platform that enables business owners to simplify their communication to their customers."
+        />
+        <ProjectListCard
+          url={"https://octave-app.vercel.app"}
+          imgSrc={Project16}
+          altText="A platform that provides fixed income investment plans with healthy returns on investments."
+        />
         <ProjectListCard
           url={"https://lyriks-app.vercel.app"}
           imgSrc={Project14}
