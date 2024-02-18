@@ -1,0 +1,289 @@
+:root {
+  --main-color: #181d24;
+  --color-dark: #1d2231;
+  --text-brown: #ca9d75;
+}
+
+html {
+  background-color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Style Script", cursive;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.font-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.page-container {
+  background-color: var(--main-color);
+}
+
+.half-screen {
+  height: 50vh;
+}
+
+.three-quarter-screen {
+  height: 75vh;
+}
+
+.full-screen {
+  height: 100vh;
+}
+
+.content__wrapper {
+  margin-top: 16.5vh;
+}
+
+.text-size {
+  font-size: 19px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Home Page */
+.header__container {
+  background: linear-gradient(
+      rgba(24, 29, 36, 0.571),
+      rgba(202, 157, 117, 0.441)
+    ),
+    url("https://res.cloudinary.com/dbdgevqyn/image/upload/v1628512014/portfolio/hero.jpg");
+  /* url("./assets/images/hero/hero.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 70vh;
+}
+
+.header__container__alt {
+  background-color: var(--main-color);
+  height: 30vh;
+}
+
+.content__wrapper {
+  padding-left: 2rem;
+}
+
+.content__wrapper a {
+  text-decoration: none;
+  color: #ca9d75;
+}
+
+.header__title {
+  text-transform: capitalize;
+}
+
+.text-brown {
+  color: var(--text-brown);
+}
+
+.image__container {
+  border-radius: 30% 70% 69% 31% / 28% 30% 70% 72%;
+  background: linear-gradient(
+      rgba(24, 29, 36, 0.263),
+      rgba(202, 157, 117, 0.441)
+    ),
+    url("https://res.cloudinary.com/dbdgevqyn/image/upload/v1628578821/portfolio/Budom.jpg");
+  /* url("./assets/images/hero/hero.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.icons__wrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.icons__wrapper__children {
+  background-color: #fff;
+  padding-top: 8px;
+  border-radius: 100%;
+  height: 4rem;
+  width: 4rem;
+}
+
+/* Skills Page */
+
+/* Projects Page */
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.projects-container-child {
+  width: 100%;
+}
+
+.projectImg {
+  max-width: 100%;
+  height: auto;
+  border: 4px solid var(--text-brown);
+}
+
+/* Contact Page */
+.icons__wrapper {
+  margin-top: 2rem;
+}
+
+.bi {
+  padding: 1rem;
+}
+
+.btn-brown {
+  background-color: var(--text-brown);
+  padding: 10px;
+}
+
+input:focus ~ label,
+textarea:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  /* width: 293px; */
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .styled-input {
+    width: 100%;
+  }
+}
+
+.styled-input label {
+  color: #999;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide {
+  width: 650px;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #2d2d2d7b;
+  color: white;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 10em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+  padding: 7px 35px;
+  border-radius: 60px;
+  display: inline-block;
+  background-color: #4b8cfb;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+@media (max-width: 768px) {
+  .submit-btn {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+input[type="checkbox"] + label {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type="checkbox"]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+
+.bi-icon {
+  font-size: 2rem;
+  color: #ca9d75;
+}
+/* RESPONSIVENESS */
+@media only screen and (max-width: 485px) {
+  .carousel__container {
+    margin-top: -150px;
+    text-align: center;
+  }
+
+  .icons__wrapper {
+    display: flex;
+    gap: 4px;
+  }
+
+  .icons__wrapper__children {
+    background-color: #fff;
+    padding-top: 8px;
+    border-radius: 100%;
+    height: 4rem;
+    width: 4rem;
+  }
+}
